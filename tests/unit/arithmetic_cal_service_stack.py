@@ -1,13 +1,13 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
 
-from arithmetic_cal_service.arithmetic_cal_service_stack import DeqodePersiStack
+from arithmetic_cal_service.arithmetic_cal_service_stack import ArithmeticCalServiceStack
 
 # example tests. To run these tests, uncomment this file along with the example
-# resource in deqode_persi/deqode_persi_stack.py
+# resource in arithmetic-cal-service/arithmetic_cal_service_stack.py
 def test_sqs_queue_created():
     app = core.App()
-    stack = DeqodePersiStack(app, "deqode-persi")
+    stack = ArithmeticCalServiceStack(app, "arithmetic-cal-service")
     template = assertions.Template.from_stack(stack)
 
 #     template.has_resource_properties("AWS::SQS::Queue", {

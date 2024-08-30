@@ -6,14 +6,14 @@ import os
 import aws_cdk as cdk
 
 
-from arithmetic_cal_service.arithmetic_cal_service_stack import DeqodePersiStack
+from arithmetic_cal_service.arithmetic_cal_service_stack import ArithmeticCalServiceStack
 
 
 # Replace with your AWS Account ID and region
 env = cdk.Environment(account='942417914032', region='ap-south-2')
 
 app = cdk.App()
-DeqodePersiStack(app, "DeqodePersiStack",
+ArithmeticCalServiceStack(app, "ArithmeticCalServiceStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
