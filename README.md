@@ -78,20 +78,23 @@ This project implements a basic arithmetic service using AWS Lambda and AWS CDK.
 Set up a Python virtual environment and install dependencies:
 `python -m venv .env`
 `source .env/bin/activate`
-# On Windows, use `.env\Scripts\activate`
+On Windows, use `.env/Scripts/activate`
+
 `pip install -r requirements.txt`
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 3. **API Endpoints**
 
-Addition: /v1/add?numbers=2,3
-Subtraction: /v1/subtract?numbers=5,2
-Multiplication: /v1/multiply?numbers=2,3
-Division: /v1/divide?numbers=6,2
+* `Addition: /v1/add?numbers=2,3`
+* `Subtraction: /v1/subtract?numbers=5,2`
+* `Multiplication: /v1/multiply?numbers=2,3`
+* `Division: /v1/divide?numbers=6,2`
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 4. **Testing**
 Use tools like curl or Postman to test the API endpoints. Example curl commands:
+
 `curl "https://your-api-id.execute-api.your-region.amazonaws.com/prod/v1/add?numbers=2,3"`
 
 
