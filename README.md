@@ -86,9 +86,29 @@ On Windows, use `.env/Scripts/activate`
 3. **API Endpoints**
 
 * `Addition: /v1/add?numbers=2,3`
+![image](https://github.com/user-attachments/assets/bd7f2a50-d169-47da-983e-bea28468524c)
+
 * `Subtraction: /v1/subtract?numbers=5,2`
+  ![image](https://github.com/user-attachments/assets/ea27a8d9-a2be-4e94-b906-57424643216c)
+
 * `Multiplication: /v1/multiply?numbers=2,3`
+  ![image](https://github.com/user-attachments/assets/b678ec8d-fd9a-4c83-ba11-0efaa9d1239b)
+
 * `Division: /v1/divide?numbers=6,2`
+  ![image](https://github.com/user-attachments/assets/3063ed3b-dd9c-412f-bd3f-85c31ba3e4c6)
+
+* `Division: When Division by zero error`
+  ![image](https://github.com/user-attachments/assets/c69b1c83-781b-4c10-8a5b-49a839108fc3)
+
+* `Whwn numeric values are not provided.`
+  ![image](https://github.com/user-attachments/assets/c8d797b9-56ea-40b1-ac6d-9946e6515e58)
+
+* `When no query parameters provided or 'numbers' parameter missing.`
+  ![image](https://github.com/user-attachments/assets/15dc9b13-021d-484a-a73a-d4b3d13a05b1)
+
+
+
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
