@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 import os
 
+#import aws_cdk as cdk
+#from aws_cdk import App
 import aws_cdk as cdk
+
 
 from deqode_persi.deqode_persi_stack import DeqodePersiStack
 
+
+# Replace with your AWS Account ID and region
+env = cdk.Environment(account='942417914032', region='ap-south-2')
 
 app = cdk.App()
 DeqodePersiStack(app, "DeqodePersiStack",
