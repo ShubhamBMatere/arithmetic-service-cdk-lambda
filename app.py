@@ -6,7 +6,7 @@ import os
 import aws_cdk as cdk
 
 
-from deqode_persi.deqode_persi_stack import DeqodePersiStack
+from arithmatic_service.arithmatic_service_stack import DeqodePersiStack
 
 
 # Replace with your AWS Account ID and region
